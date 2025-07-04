@@ -1,0 +1,56 @@
+{
+  "llm_exact_match": {
+    "mean": {
+      "llm_based_exact_match_pass_1": 0.064,
+      "llm_based_exact_match_pass_5": 0.161,
+      "llm_based_exact_match_pass_10": 0.2
+    },
+    "std": {
+      "llm_based_exact_match_pass_1": 0.007743640226919376,
+      "llm_based_exact_match_pass_5": 0.01162816469672726,
+      "llm_based_exact_match_pass_10": 0.012655439943366657
+    }
+  },
+  "bleu": {
+    "mean": null,
+    "std": null
+  },
+  "multi_metric": {
+    "mean": {
+      "readability": 6.716,
+      "relevance": 6.944,
+      "explanation_clarity": 5.433,
+      "problem_identification": 6.243,
+      "actionability": 5.51,
+      "completeness": 5.58,
+      "specificity": 6.017,
+      "contextual_adequacy": 6.798,
+      "consistency": 7.099,
+      "brevity": 6.357
+    },
+    "std": {
+      "readability": 0.06429212609237213,
+      "relevance": 0.08365322385815063,
+      "explanation_clarity": 0.06526691942148619,
+      "problem_identification": 0.08103405159263308,
+      "actionability": 0.07725197646576991,
+      "completeness": 0.07276602843975268,
+      "specificity": 0.07874586917363927,
+      "contextual_adequacy": 0.08023486544909036,
+      "consistency": 0.08503193182228327,
+      "brevity": 0.056663584088563985
+    }
+  },
+  "chrf": {
+    "mean": {
+      "chrf_pass_1": 11.82478377689547,
+      "chrf_pass_5": 15.401424503372905,
+      "chrf_pass_10": 16.31058693842143
+    },
+    "std": {
+      "chrf_pass_1": 0.3424573151863411,
+      "chrf_pass_5": 0.41490755716674077,
+      "chrf_pass_10": 0.43146012865982053
+    }
+  }
+}
